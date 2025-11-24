@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #83a5e4; /* azul muy claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.weather-container {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0, 0, 70, 0.2);
+    text-align: center;
+    border: 3px solid #88b0ec;
+}
+
+/* Título */
+.weather-container h1 {
+    color: #1047ae;
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* ======== INPUTS ======== */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4885db;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #0073ff;
+    border-radius: 6px;
+}
+
+/* ======== BOTÓN ======== */
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    font-size: 20px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background: #004bcc;
+}
+
+/* ======== RESULTADOS ======== */
+.result-box {
+    margin-top: 25px;
+    padding: 20px;
+    background: #dce8ff;
+    border-radius: 8px;
+    border: 2px solid #7da9ff;
+    font-size: 22px;
+    color: #003b99;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
