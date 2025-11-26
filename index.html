@@ -12,6 +12,13 @@
     <main class="weather-container">
         <h1>Weather Dashboard</h1>
         
+            <form id="weatherForm">
+            <label for="cityInput">Ingresa un estado o ciudad:</label>
+            <input type="text" id="cityInput" placeholder="Ej: Ciudad de México, Madrid, Buenos Aires" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        
         <div class="input-group">
             <label for="latitude-input">Latitude</label>
             <input type="number" id="latitude-input" placeholder="e.g. 19.43" value="25.666815" step="any">
